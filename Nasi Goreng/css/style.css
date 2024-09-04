@@ -1,0 +1,177 @@
+nav{
+  background-color: #f7f7f7;
+}
+.navbar > a {
+    color: #ca3625 !important;
+}
+  
+  .nav > li > a{
+    color: #ca3625 !important;
+    text-decoration:solid !important;
+    transition: 0.2s;
+
+ }
+
+
+ nav>a>img{
+  height: 65px !important;
+  width: 65px !important;
+ }
+
+ .nav-pills > li > a.active {
+    background-color: rgba(245, 222, 179, 0.4) !important;
+    border: 1px #ca3625 solid !important;
+    scale: 1.07;
+    transition: 0.2s;
+}
+
+.jt1{
+    margin-top: -3vh;
+    background-image: url("https://images.unsplash.com/photo-1680674774705-90b4904b3a7f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmFzaSUyMGdvcmVuZ3xlbnwwfHwwfHx8MA%3D%3D");
+    height: 80vh;
+    width: 100%;
+    background-position: 50%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.jtGrad{
+    height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0),rgba(255,255,255,0.1), rgba(255,255,255,1));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.jtGrad > h1, .jtGrad > p{
+    background-color: rgba(245, 222, 179, 0.7);
+}
+
+.jtGrad > h1{
+    margin-bottom: -2px;
+}
+
+.jtGrad > p{
+    margin-top: -7px;
+}
+
+  #alat{
+    color: black !important;
+    margin-top: 100px;
+    /* border: 1px solid rgba(202, 54, 37,1); */
+    border: 1px solid black;
+    padding: 20px;
+    /* background-color: rgba(245, 222, 179, 1); */
+    background: linear-gradient( rgba(0,0,0,0),rgba(245, 222, 179, 0.6), rgba(245, 222, 179, 1));
+    border-radius: 10px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+  }
+  
+  .alat2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+.jt2{
+    background: linear-gradient( rgba(0,0,0,0),rgba(245, 222, 179, 0.6), rgba(245, 222, 179, 1));
+  padding: 10px;
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+.kartu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  background-color: rgba(0, 0, 0, 0) !important;
+  border: 1px solid black !important;
+  height: 21.2vh !important;
+}
+
+
+.jt2>.col>.card{
+  height: 500px !important;
+}
+
+@media only screen and (max-width: 420px) {
+  .card-text{
+    font-size: medium;
+  }
+}
+/* 420 */
+
+@media only screen and (max-width: 477px) {
+  li>a{
+    font-size: 15px !important;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  li>a{
+    font-size: 14px !important;
+  }
+}
+@media only screen and (max-width: 445px) {
+  li>a{
+    font-size: 13px !important;
+  }
+}
+@media only screen and (max-width: 389px) {
+  .card-text{
+    font-size: small;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .card{
+    height: 23vh !important;
+  }
+  }
+
+.rekom{
+  font-size: 4vh;
+}
+.foto{
+  
+  margin-top: 8px;
+  border: 1px black solid !important;
+  height: 70vw;
+  width:  70vw;
+}
+
+@media only screen and (max-width: 1400px) {
+  .foto{
+    height: 75vw;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .foto{
+    height: 80vw;
+  }
+}
+
+
+.foto > h1{
+  font-size: 4vh;
+}
+
+img {
+  height: 34vw !important;
+  width: 34vw !important;
+  object-fit:cover;
+  margin: auto;
+}
+
